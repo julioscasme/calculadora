@@ -1,0 +1,31 @@
+.boton-contenedor{
+    flex: 1 1; /*Se expande en torno al espacio que tiene
+    para extenderse y a la cantidad de botones
+    De forma equitativa*/
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none; /*Permite que le texto no se pueda seleccionar con el raton
+    de esa forma se parece más a un botón y no a un dic con texto*/
+}
+
+.operador{
+    background-color: #00471b;
+}
+
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+}
+
+.operador:hover{
+    background-color: #ff6600;
+}
